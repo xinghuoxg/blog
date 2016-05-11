@@ -2,29 +2,30 @@
 
 ## 目录
 
-* [标题] [headers]
-* [引用] [headers]
-* [列表] [list]
-* [区块引用] [Blockquotes]
-* [分割线] [cutting-line]
-* [强调] [Emphasis]
-* [代码] [code]
-* [图片] [img]
+* [标题] (#headers)
+* [列表] (list)
+* [区块引用] (#Blockquotes)
+* [分割线] (#cutting-line)
+* [强调] (#Emphasis)
+* [代码] (#code)
+* [图片] (#img)
 
-[headers]: 标题
+<a name="headers">
+</a>
 ### 标题
 
-        # 一级标题
+    # 一级标题
     #### 四级标题
 
 一级和二级标题还有一种写法：
 
-        一级标题
+    一级标题
     ===================
     二级标题
     --------------------
 
-[list]: 列表
+    <a name="list">
+    </a>
 ### 列表
 
 * 无需列表(* 或者+ ，- )
@@ -36,14 +37,16 @@
     2. McHale
     3. Parish
 
-[Blockquotes]: 区块引用
+    <a name="Blockquotes">
+    </a>
 ### 区块引用(>)
 
 >This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 >> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 
 
-[cutting-line]: 分割线
+<a name="cutting-line">
+</a>
 ### 分割线
 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
     ***
@@ -51,7 +54,8 @@
     - - -
     ------
 
-[link]: 链接
+    <a name="link">
+    </a>
 ### 链接
 Markdown 支持两种形式的链接语法： 行内式和参考式两种形式。
 
@@ -134,7 +138,8 @@ Markdown 支持两种形式的链接语法： 行内式和参考式两种形式�
 参考式的链接其实重点不在于它比较好写，而是它比较好读，比较一下上面的范例，使用参考式的文章本身只有 81 个字符，但是用行内形式的却会增加到 176 个字元，如果是用纯 HTML 格式来写，会有 234 个字元，在 HTML 格式中，标签比文本还要多。
 使用 Markdown 的参考式链接，可以让文件更像是浏览器最后产生的结果，让你可以把一些标记相关的元数据移到段落文字之外，你就可以增加链接而不让文章的阅读感觉被打断。
 
-[Emphasis]: 强调
+<a name="Emphasis">
+</a>
 ### 强调
 Markdown 使用星号（*）和底线（_）作为标记强调字词的符号，被 * 或 _ 包围的字词会被转成用 <em> 标签包围，用两个 * 或 _ 包起来的话，则会被转成 <strong>，例如：
 
@@ -150,14 +155,16 @@ Markdown 使用星号（*）和底线（_）作为标记强调字词的符号，
 
      \*this text is surrounded by literal asterisks\*
 
-[code]: 代码
+     <a name="code">
+     </a>
 ###代码
 
 如果要标记一小段行内代码，你可以用反引号把它包起来(`)，例如：
 
     Use the `printf()` function.
 
-[img]: 图片
+    <a name="img">
+    </a>
 ###图片
 
 很明显地，要在纯文字应用中设计一个「自然」的语法来插入图片是有一定难度的。
