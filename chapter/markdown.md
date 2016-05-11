@@ -3,7 +3,7 @@
 ## 目录
 
 * [标题] (#headers)
-* [列表] (list)
+* [列表] (#list)
 * [区块引用] (#Blockquotes)
 * [分割线] (#cutting-line)
 * [强调] (#Emphasis)
