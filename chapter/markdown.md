@@ -24,8 +24,8 @@
     二级标题
     --------------------
 
-    <a name="list">
-    </a>
+<a name="list">
+</a>
 ### 列表
 
 * 无需列表(* 或者+ ，- )
@@ -54,8 +54,8 @@
     - - -
     ------
 
-    <a name="link">
-    </a>
+<a name="link">
+</a>
 ### 链接
 Markdown 支持两种形式的链接语法： 行内式和参考式两种形式。
 
@@ -155,16 +155,16 @@ Markdown 使用星号（*）和底线（_）作为标记强调字词的符号，
 
      \*this text is surrounded by literal asterisks\*
 
-     <a name="code">
-     </a>
+<a name="code">
+</a>
 ###代码
 
 如果要标记一小段行内代码，你可以用反引号把它包起来(`)，例如：
 
     Use the `printf()` function.
 
-    <a name="img">
-    </a>
+<a name="img">
+</a>
 ###图片
 
 很明显地，要在纯文字应用中设计一个「自然」的语法来插入图片是有一定难度的。
